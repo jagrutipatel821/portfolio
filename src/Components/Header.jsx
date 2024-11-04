@@ -1,0 +1,31 @@
+import React from 'react'
+
+function Header() {
+  return (
+    <div style={
+      {
+
+        position :"fixed",
+        display:"flex",
+        justifyContent:"center",
+        gap:"2rem",
+        backgroundColor: "rgba(255,255,255,0.75)",
+        padding: "1rem",
+        top:0,
+        width:"100%",
+        zIndex: 10,
+        
+      }
+    }
+    className='contain'
+    
+    >
+      <a href="#home" className='.adiv'>Home</a>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#footer">Contact</a>
+    </div>
+  )
+}
+
+export default Header
